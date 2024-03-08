@@ -1,0 +1,24 @@
+.dashboard-container,
+.worksheet-container {
+  padding-top: $pt-navbar-height;
+  min-height: calc(100vh);
+}
+
+.recent-worksheet {
+  height: 30px;
+  color: $link;
+}
+
+.recent-worksheet:hover {
+  background-color: $dark-mode-medium-background;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.delete-worksheet-button {
+  display: none;
+}
+
+.recent-worksheet:hover > .delete-worksheet-button {
+  display: inline-flex;
+}

@@ -1,0 +1,24 @@
+.printing-questions-title,
+.printing-answers-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media all {
+  .page-break,
+  .no-break-inside {
+    display: none;
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  .no-break-inside {
+    page-break-before: always;
+  }
+}

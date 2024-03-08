@@ -1,0 +1,108 @@
+.container {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-view {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: auto;
+}
+
+.h100 {
+  height: 100% !important;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.w92 {
+  width: 91.6667% !important;
+}
+
+.w83 {
+  width: 83.3333% !important;
+}
+
+.w75 {
+  width: 75% !important;
+}
+
+.w67 {
+  width: 66.6667% !important;
+}
+
+.w58 {
+  width: 58.3333% !important;
+}
+
+.w50 {
+  width: 50% !important;
+}
+
+.w42 {
+  width: 41.6667% !important;
+}
+
+.w33 {
+  width: 33% !important;
+}
+
+.w25 {
+  width: 25% !important;
+}
+
+.w17 {
+  width: 16.6667% !important;
+}
+
+.w10 {
+  width: 10% !important;
+}
+
+.w08 {
+  width: 08.3333% !important;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-none {
+  display: none !important;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.absolute-zero-position {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.absolute-zero-position-no-top {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

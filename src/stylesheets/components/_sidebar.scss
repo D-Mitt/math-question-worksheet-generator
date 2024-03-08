@@ -1,0 +1,6 @@
+.sidebar {
+  width: $sidebar-width;
+  padding-top: $pt-navbar-height;
+  min-height: calc(100vh);
+  border-right: 1px solid $dark-mode-line;
+}

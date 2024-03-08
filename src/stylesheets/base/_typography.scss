@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: $pt-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#MathJax_Message {
+  display: none !important;
+}
+
+.dark-mode-background {
+  background-color: $dark-mode-background;
+}
+
+.title-underline {
+  border-bottom: 2px solid $dark-mode-line;
+}
+
+.subtitle-underline {
+  border-bottom: 1px solid $dark-mode-line;
+}
+
+.bottom-divider-dark-mode {
+  border-bottom: 1px solid $dark-mode-line;
+}
+
+.mouse-pointer {
+  cursor: pointer;
+}
+
+// .dark-mode-background > .div {
+//   background-color: inherit;
+// }

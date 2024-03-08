@@ -1,0 +1,30 @@
+.equation-section {
+  padding-top: 75%;
+  position: relative;
+}
+
+.question-rows {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.single-addition-question {
+  padding-top: 60% !important;
+}
+
+.question-card-mb,
+.answer-card-mb {
+  margin-bottom: 75px !important;
+}
+
+.worksheet-numbering {
+  font-size: medium;
+  font-weight: 700;
+  color: $dark-mode-numbering;
+}
+
+.MJXc-display {
+  margin-right: 1rem !important;
+}

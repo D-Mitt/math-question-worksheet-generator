@@ -1,0 +1,14 @@
+.worksheet-tabs > .bp3-tab-list {
+  position: fixed;
+  top: 50px;
+  width: calc(100% - 250px);
+  padding-top: 16px;
+  background-color: $dark-mode-background;
+  z-index: 1;
+  align-items: end;
+}
+
+#worksheet-title-section > .worksheet-title-error {
+  font-size: 10pt;
+  color: $danger-default;
+}
